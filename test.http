@@ -1,0 +1,21 @@
+POST http://localhost:4000/api/employee HTTP/1.1
+content-type: application/json
+
+{
+    "FirstName": "hr",
+    "MiddleName": "middlehr",
+    "LastName":"lasthr",
+    "Email":"admin@admin.com",
+    "Password":"12341234",
+    "Gender":"Male",
+    "DateOfJoining":"2021-12-12T07:16:49.017+00:00",
+    "ContactNo": "12345678",
+  "EmployeeCode": "1234",
+  "DOB":"1999-12-12T07:16:49.017+00:00",
+  "Account": 1
+
+}
+
+###
+
+GET http://localhost:4000
